@@ -1,0 +1,16 @@
+Content in etc/crontab file:
+
+*/10 * * * * root /home/demo.sh
+
+//with above command demo.sh script will run on every 10 min automatically.
+
+
+
+
+Content of demo.sh:
+
+
+truncate -s 0 /home/DRtest1.csv
+hive -e 'select * from demo' >> /home/DRtest1.csv
+cd /home/Elastic/logstash-2.4.0
+bin/logstash -f drfinal.conf
