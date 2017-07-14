@@ -1,0 +1,54 @@
+vi ~/.bashrc
+
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+export CASSANDRA_HOME=/home/cloudera/Desktop/HadoopExam/work/apache-cassandra-2.1.0-beta1
+export PATH=$CASSANDRA_HOME/bin:$PATH
+export KAFKA_HOME="/opt/kafka/kafka_2.10-0.10.1.0"
+export PATH="$PATH:$KAFKA_HOME/bin"
+export SQOOP_HOME="/etc/sqoop"
+export PATH="$PATH:$SQOOP_HOME/bin"
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                                                                            
+"~/.bashrc" [readonly] 19L, 459C   
